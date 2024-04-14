@@ -42,7 +42,7 @@ def markcompleted():
 #creating the initial window
 window=Tk()
 #giving a title
-window.title("DataFlair To_Do_APP")
+window.title("WHATODO")
 
 
 #Frame widget to hold the listbox and the scrollbar
@@ -50,7 +50,7 @@ frame_task=Frame(window)
 frame_task.pack()
 
 #to hold items in a listbox
-listbox_task=Listbox(frame_task,bg="black",fg="white",height=30,width=100,font = "Helvetica")  
+listbox_task=Listbox(frame_task,bg="black",fg="white",height=30,width=100,font = "Ariel")  
 listbox_task.pack(side=tkinter.LEFT)
 
 #Scrolldown in case the total list exceeds the size of the given window 
